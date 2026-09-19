@@ -1,2 +1,2 @@
 # Webtech
-For Web Technology Course Purpose
+For Web Technology Course Purposes
