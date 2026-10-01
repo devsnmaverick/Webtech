@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +8,9 @@
     <style>
         img {
             width: 300px;
-            height: auto;    
+            height: auto;
         }
-        
+
         header {
             background-color: rgba(0, 128, 0, 0.868);
             width: 100%;
@@ -22,7 +23,7 @@
         }
 
         form {
-            padding: 20px;   
+            padding: 20px;
             width: 420px;
             margin: 30px auto;
             background: white;
@@ -32,36 +33,50 @@
         div {
             margin-bottom: 11px;
         }
+
         label {
             font-weight: 600;
         }
-        .fname, .lname, .studentID, .password, .email, .bdate, .address{
+
+        .fname,
+        .lname,
+        .studentID,
+        .password,
+        .email,
+        .bdate,
+        .address {
             width: 100%;
             box-sizing: border-box;
             padding: 11px;
             border-radius: 5px;
             border: 1px solid #ccc;
         }
-        select, textarea{
+
+        select,
+        textarea {
             width: 100%;
             box-sizing: border-box;
             padding: 4px;
             border-radius: 5px;
             border: 1px solid #ccc;
         }
+
         button {
             border-radius: 5px;
             border: 1px solid #ccc;
         }
     </style>
 </head>
+
 <body>
     <header>
-    <img src="uc_logo_green_ext_h150.png" alt="uc_logo">
+        <img src="uc_logo_green_ext_h150.png" alt="uc_logo">
     </header>
-    
+
     <form>
-        <center><h3>Registration for 2027</h3></center>
+        <center>
+            <h3>Registration for 2027</h3>
+        </center>
 
         <div style="display: flex; gap: 12%;">
             <div>
@@ -70,24 +85,26 @@
             </div>
 
             <div>
-                <br><input class="lname" type="text" placeholder="Last Name" required>   
+                <br><input class="lname" type="text" placeholder="Last Name" required>
             </div>
         </div>
 
-         <div>
+        <div>
             <label for="studentID">Student ID</label><br>
-            <input class="studentID" type="text" id="studentID" placeholder="00-0000-000" maxlength="10" required>   
+            <input class="studentID" type="text" id="studentID" placeholder="00-0000-000" maxlength="10" required>
         </div>
 
         <div style="display: flex; gap: 50px;">
-             <div>
+            <div>
                 <label for="password">Password</label><br>
-                <input class="password" type="password" id="password" minlength="8" maxlength="20" placeholder="At least 8 characters" required>   
+                <input class="password" type="password" id="password" minlength="8" maxlength="20"
+                    placeholder="At least 8 characters" required>
             </div>
 
             <div>
                 <label for="email">Email</label><br>
-                <input class="email" type="email" id="email" placeholder="ex: user123@gmail.com" maxlength="50" required>   
+                <input class="email" type="email" id="email" placeholder="ex: user123@gmail.com" maxlength="50"
+                    required>
             </div>
         </div>
 
@@ -104,7 +121,7 @@
 
                 <label for="female">Female</label>
                 <input type="radio" id="female" name="gender" value="Female">
-            </div>  
+            </div>
         </div>
 
         <div style="display: flex; gap: 7%;">
@@ -130,11 +147,11 @@
                     <option value="">Music</option>
                     <option value="">Drawing</option>
                     <option value="">Traveling</option>
-                    <option value="">Gaming</option>    
-                </select>   
+                    <option value="">Gaming</option>
+                </select>
             </div>
-        </div> 
-        
+        </div>
+
         <div>
             <label for="Address">Address</label><br>
             <input class="address" type="text" id="address" maxlength="100" placeholder="Type Address" required>
@@ -151,4 +168,5 @@
         </div>
     </form>
 </body>
+
 </html>
